@@ -33,11 +33,11 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
    
     a. In the navigation pane on the left side, go to **System Definition** section and then click **Plugins**.
    
-    ![Configure app URL](./media/active-directory-saas-servicenow-tutorial/tutorial_servicenow_03.png "Activate plugin")
+    ![Configure app URL](./media/tutorial_servicenow_03.png "Activate plugin")
    
     b. Search for *Integration - Multiple Provider Single Sign-On Installer*.
    
-    ![Configure app URL](./media/active-directory-saas-servicenow-tutorial/tutorial_servicenow_04.png "Activate plugin")
+    ![Configure app URL](./media/tutorial_servicenow_04.png "Activate plugin")
    
     c. Select the plugin. Rigth click and select **Activate/Upgrade**.
    
@@ -45,11 +45,11 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
 3. In the navigation pane on the left side, click **Properties**.  
    
-    ![Configure app URL](./media/active-directory-saas-servicenow-tutorial/tutorial_servicenow_06.png "Configure app URL")
+    ![Configure app URL](./media/tutorial_servicenow_06.png "Configure app URL")
 
 4. On the **Multiple Provider SSO Properties** dialog, perform the following steps:
    
-    ![Configure app URL](./media/active-directory-saas-servicenow-tutorial/IC7694981.png "Configure app URL")
+    ![Configure app URL](./media/IC7694981.png "Configure app URL")
    
     a. As **Enable multiple provider SSO**, select **Yes**.
    
@@ -61,15 +61,15 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
 5. In the navigation pane on the left side, click **x509 Certificates**.
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/tutorial_servicenow_05.png "Configure single sign-on")
+     ![Configure single sign-on](./media/tutorial_servicenow_05.png "Configure single sign-on")
 
 6. On the **X.509 Certificates** dialog, click **New**.
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/IC7694974.png "Configure single sign-on")
+     ![Configure single sign-on](./media/IC7694974.png "Configure single sign-on")
 
 7. On the **X.509 Certificates** dialog, perform the following steps:
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/IC7694975.png "Configure single sign-on")
+     ![Configure single sign-on](./media/IC7694975.png "Configure single sign-on")
     
      a. Click **New**.
     
@@ -87,19 +87,19 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
 8. In the navigation pane on the left side, click **Identity Providers**.
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/tutorial_servicenow_07.png "Configure single sign-on")
+     ![Configure single sign-on](./media/tutorial_servicenow_07.png "Configure single sign-on")
 
 9. On the **Identity Providers** dialog, click **New**:
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/IC7694977.png "Configure single sign-on")
+     ![Configure single sign-on](./media/IC7694977.png "Configure single sign-on")
 
 10. On the **Identity Providers** dialog, click **SAML2 Update1?**:
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/IC7694978.png "Configure single sign-on")
+     ![Configure single sign-on](./media/IC7694978.png "Configure single sign-on")
 
 11. On the SAML2 Update1 Properties dialog, perform the following steps:
     
-     ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/IC7694982.png "Configure single sign-on")
+     ![Configure single sign-on](./media/IC7694982.png "Configure single sign-on")
 
     a. in the **Name** textbox, type a name for your configuration (e.g.: **SAML 2.0**).
 
@@ -145,11 +145,11 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
 2. In the navigation pane on the left side, click **Single Sign-On**.  
    
-    ![Configure app URL](./media/active-directory-saas-servicenow-tutorial/ic7694980ex.png "Configure app URL")
+    ![Configure app URL](./media/ic7694980ex.png "Configure app URL")
 
 3. On the **Single Sign-On** dialog, click the configuration icon on the upper right and set the following properties:
    
-    ![Configure app URL](./media/active-directory-saas-servicenow-tutorial/ic7694981ex.png "Configure app URL")
+    ![Configure app URL](./media/ic7694981ex.png "Configure app URL")
    
     a. Toggle **Enable multiple provider SSO** to the right.
    
@@ -158,10 +158,10 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
     c. In **The field on the user table that...** textbox, type **user_name**.
 4. On the **Single Sign-On** dialog, click **Add New Certificate**.
    
-    ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/ic7694973ex.png "Configure single sign-on")
+    ![Configure single sign-on](./media/ic7694973ex.png "Configure single sign-on")
 5. On the **X.509 Certificates** dialog, perform the following steps:
     
-    ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/IC7694975.png "Configure single sign-on")
+    ![Configure single sign-on](./media/IC7694975.png "Configure single sign-on")
     
     a. In the **Name** textbox, type a name for your configuration (e.g.: **TestSAML2.0**).
     
@@ -183,10 +183,10 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
     g. Click **Update**.
 6. On the **Single Sign-On** dialog, click **Add New IdP**.
     
-    ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/ic7694976ex.png "Configure single sign-on")
+    ![Configure single sign-on](./media/ic7694976ex.png "Configure single sign-on")
 7. On the **Add New Identity Provider** dialog, under **Configure Identity Provider**, perform the following steps:
     
-    ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/ic7694982ex.png "Configure single sign-on")
+    ![Configure single sign-on](./media/ic7694982ex.png "Configure single sign-on")
 
     a. In the **Name** textbox, type a name for your configuration (e.g.: **SAML 2.0**).
 
@@ -201,7 +201,7 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
 8. Click **Advanced Settings**, and under **Additional Identity Provider Properties**, perform the following steps:
    
-    ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/ic7694983ex.png "Configure single sign-on")
+    ![Configure single sign-on](./media/ic7694983ex.png "Configure single sign-on")
    
     a. In the **Protocol Binding for the IDP's SingleLogoutRequest** textbox, type **urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect**.
    
@@ -213,7 +213,7 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
 9. Under **Additional Service Provider Properties**, perform the following steps:
    
-    ![Configure single sign-on](./media/active-directory-saas-servicenow-tutorial/ic7694984ex.png "Configure single sign-on")
+    ![Configure single sign-on](./media/ic7694984ex.png "Configure single sign-on")
    
     a. In the **ServiceNow Homepage** textbox, type the URL of your ServiceNow instance homepage.
    
@@ -237,23 +237,3 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
    
     f. Click **Save**. 
 
-<!--Image references-->
-
-[1]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_01.png
-[2]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_02.png
-[3]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_03.png
-[4]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_04.png
-
-
-[5]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_05.png
-[6]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_06.png
-[7]:  ./media/active-directory-saas-servicenow-tutorial/tutorial_general_050.png
-[10]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_060.png
-[11]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_070.png
-[20]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_100.png
-
-[200]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_200.png
-[201]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_201.png
-[203]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_203.png
-[204]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_204.png
-[205]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_205.png
