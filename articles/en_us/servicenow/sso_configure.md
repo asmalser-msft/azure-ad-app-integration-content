@@ -204,9 +204,8 @@ This link relationship is established by assigning the value of the **user name*
     ![Configure single sign-on](media/ic7694984ex.png "Configure single sign-on")
    
     a. In the **ServiceNow Homepage** textbox, type the URL of your ServiceNow instance homepage.
-   
-Note: The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (e.g.: https://fabrikam.service-now.com/navpage.do).
 
+    Note: The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (e.g.: https://fabrikam.service-now.com/navpage.do).
    
     b. In the **Entity ID / Issuer** textbox, type the URL of your ServiceNow tenant.
    
@@ -216,8 +215,7 @@ Note: The ServiceNow instance homepage is a concatenation of your **ServieNow te
    
     e. In the **User Field** textbox, type **email** or **user_id**, depending on which field is used to uniquely identify users in your ServiceNow deployment.
    
-
-Note: You can configue Azure AD to emit either the Azure AD user ID (user principal name) or the email address as the unique identifier in the SAML token by going to the **ServiceNow > Attributes > Single Sign-On** section of the Azure classic portal and mapping the desired field to the **nameidentifier** attribute. The value stored for the selected attribute in Azure AD (e.g. user principal name) must match the value stored in ServiceNow for the entered field (e.g. user_id)
+   Note: You can configue Azure AD to emit either the Azure AD user ID (user principal name) or the email address as the unique identifier in the SAML token by going to the **ServiceNow > Attributes > Single Sign-On** section of the Azure classic portal and mapping the desired field to the **nameidentifier** attribute. The value stored for the selected attribute in Azure AD (e.g. user principal name) must match the value stored in ServiceNow for the entered field (e.g. user_id)
    
     f. Click **Save**. 
 
