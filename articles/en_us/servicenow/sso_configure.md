@@ -236,3 +236,24 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
     > 
    
     f. Click **Save**. 
+
+<!--Image references-->
+
+[1]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_01.png
+[2]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_02.png
+[3]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_03.png
+[4]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_04.png
+
+
+[5]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_05.png
+[6]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_06.png
+[7]:  ./media/active-directory-saas-servicenow-tutorial/tutorial_general_050.png
+[10]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_060.png
+[11]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_070.png
+[20]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_100.png
+
+[200]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_200.png
+[201]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_201.png
+[203]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_203.png
+[204]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_204.png
+[205]: ./media/active-directory-saas-servicenow-tutorial/tutorial_general_205.png
