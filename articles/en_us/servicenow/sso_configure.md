@@ -12,19 +12,8 @@ To test the steps in this tutorial, you should follow these recommendations:
 * If you don't have an Azure AD trial environment, you can get a one-month trial [here](https://azure.microsoft.com/pricing/free-trial/).
 
 ## Configuring and testing Azure AD single sign-on
-In this section, you configure and test Azure AD single sign-on with ServiceNow or ServiceNow Express based on a test user called "Britta Simon".
-
 For single sign-on to work, Azure AD needs to know what the counterpart user in ServiceNow is to a user in Azure AD. In other words, a link relationship between an Azure AD user and the related user in ServiceNow needs to be established.
-This link relationship is established by assigning the value of the **user name** in Azure AD as the value of the **Username** in ServiceNow. To configure and test Azure AD single sign-on with ServiceNow, you need to complete the following building blocks:
-
-1. **[Configuring Azure AD Single Sign-On for ServiceNow]** - to enable your users to use this feature.
-2. **[Configuring Azure AD Single Sign-On for ServiceNow Express]** - to enable your users to use this feature.
-3. **[Creating an Azure AD test user](#creating-an-azure-ad-test-user)** - to test Azure AD single sign-on with Britta Simon.
-4. **[Creating a ServiceNow test user](#creating-a-servicenow-test-user)** - to have a counterpart of Britta Simon in ServiceNow that is linked to the Azure AD representation of her.
-5. **[Assigning the Azure AD test user](#assigning-the-azure-ad-test-user)** - to enable Britta Simon to use Azure AD single sign-on.
-6. **[
-
-Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to configure ServiceNow Express omit step 1.
+This link relationship is established by assigning the value of the **user name** in Azure AD as the value of the **Username** in ServiceNow. 
 
 ### Configuring Azure AD Single Sign-On for ServiceNow
 1. Sign-on to your ServiceNow application as an administrator. (Example: https://YOUR_TENANT.service-now.com).
@@ -105,8 +94,7 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
     b. In the **User Field** textbox, type **email** or **user_id**, depending on which field is used to uniquely identify users in your ServiceNow deployment. 
 
-    > [!NOTE] 
-    > You can configue Azure AD to emit either the Azure AD user ID (user principal name) or the email address as the unique identifier in the SAML token by going to the **ServiceNow > Attributes > Single Sign-On** section of the Azure classic portal and mapping the desired field to the **nameidentifier** attribute. The value stored for the selected attribute in Azure AD (e.g. user principal name) must match the value stored in ServiceNow for the entered field (e.g. user_id)
+    > Note: You can configue Azure AD to emit either the Azure AD user ID (user principal name) or the email address as the unique identifier in the SAML token by going to the **ServiceNow > Attributes > Single Sign-On** section of the Azure classic portal and mapping the desired field to the **nameidentifier** attribute. The value stored for the selected attribute in Azure AD (e.g. user principal name) must match the value stored in ServiceNow for the entered field (e.g. user_id)
 
     c. Copy the following value, and then paste it into the **Identity Provider URL** textbox: %metadata:IssuerUri%
 
@@ -116,8 +104,8 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
 
     f. In the **ServiceNow Homepage** textbox, type the URL of your ServiceNow instance homepage.
 
-    > [!NOTE] 
-    > The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (e.g.:`https://fabrikam.service-now.com/navpage.do`).
+    > 
+    > Note: The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (e.g.:`https://fabrikam.service-now.com/navpage.do`).
 
     g. In the **Entity ID / Issuer** textbox, type the URL of your ServiceNow tenant.
 
@@ -173,8 +161,8 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
     
     e. Create a Base64 encoded file from your downloaded certificate.
     
-    > [!NOTE]
-    > For more details, see [How to convert a binary certificate into a text file](http://youtu.be/PlgrzUZ-Y1o).
+    > 
+    > Note: For more details, see [How to convert a binary certificate into a text file](http://youtu.be/PlgrzUZ-Y1o).
     > 
     > 
     
@@ -217,7 +205,7 @@ Note: If you want to configure ServiceNow omit step 2. Likewise, if you want to 
    
     a. In the **ServiceNow Homepage** textbox, type the URL of your ServiceNow instance homepage.
    
-Note: The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (e.g.: `https://fabrikam.service-now.com/navpage.do`).
+Note: The ServiceNow instance homepage is a concatenation of your **ServieNow tenant URL** and **/navpage.do** (e.g.: https://fabrikam.service-now.com/navpage.do).
 
    
     b. In the **Entity ID / Issuer** textbox, type the URL of your ServiceNow tenant.
