@@ -14,30 +14,30 @@ The objective of this section is to outline how to enable users to authenticate 
 As part of this procedure, you are required to upload a base-64 encoded certificate to your Dropbox for Business tenant. If you are not familiar with this procedure, see [How to convert a binary certificate into a text file](http://youtu.be/PlgrzUZ-Y1o).
 
 ### To configure single sign-on, perform the following steps:
-   
-	1. Sign-on to your Dropbox for business tenant. 
+
+1. Sign-on to your Dropbox for business tenant. 
    
 	![Configure single sign-on](./media/IC769509.png "Configure single sign-on")
    
-	2. In the navigation pane on the left side, click **Admin Console**. 
+2. In the navigation pane on the left side, click **Admin Console**. 
    
 	![Configure single sign-on](./media/IC769510.png "Configure single sign-on")
    
-	3. On the **Admin Console**, click **Authentication** in the left navigation pane. 
+3. On the **Admin Console**, click **Authentication** in the left navigation pane. 
    
 	![Configure single sign-on](./media/IC769511.png "Configure single sign-on")
    
-	4. In the **Single sign-on** section, select **Enable single sign-on**, and then click **More** to expand this section.  
+4. In the **Single sign-on** section, select **Enable single sign-on**, and then click **More** to expand this section.  
    
 	![Configure single sign-on](./media/IC769512.png "Configure single sign-on")
    
-	5. Copy the URL next to **Users can sign in by entering their email address or they can go directly to**. 
+5. Copy the URL next to **Users can sign in by entering their email address or they can go directly to**. 
    
 	![Configure single sign-on](./media/IC769513.png "Configure single sign-on")
    
-	6. In the Azure portal, ensure the copied URL matches the Sign-On URL. 
+6. In the Azure portal, ensure the copied URL matches the Sign-On URL. 
 	
-	7. On your Dropbox for Business tenant, in the **Single sign-on** section of the **Authentication** page, perform the following steps: 
+7. On your Dropbox for Business tenant, in the **Single sign-on** section of the **Authentication** page, perform the following steps: 
    
     ![Configure single sign-on](./media/IC769516.png "Configure single sign-on")
    
